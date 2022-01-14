@@ -1,0 +1,17 @@
+---
+- mystudents: 
+  - name: prasad
+    phno: 15365256272
+    address:
+    - doorno: 253
+    - street: 2nd
+    - pincode: 
+
+  -  name: rama
+     phno: 67789644837
+     address: hyd
+
+
+  - name: sai
+    phno: 5389756879
+    address: hyd

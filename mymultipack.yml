@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: 172.31.23.69
   become: yes
   tasks:
   - name: i want to install git, tree and wget by using same tasks

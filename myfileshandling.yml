@@ -20,3 +20,7 @@
     file:
       path: /home/ubuntu/myfolder
       state: directory
+  - name: restart webserver
+    service:
+      name: apache2
+      state: restarted

@@ -1,0 +1,23 @@
+---
+- hosts: 172.31.23.69
+  become: yes
+  tasks:
+  - name: i want to create a file
+    file:
+      path: /home/ubuntu/file1
+      state: touch
+    notify:
+    - repetedtasks
+
+  - name: i want to create a file
+    file:
+      path: /home/ubuntu/file2
+      state: touch
+    notify:
+    - repetedtasks
+
+
+    handlers:
+    - name: repetedtasks
+      debug:
+        msg: "{{ansible_os_family}}"

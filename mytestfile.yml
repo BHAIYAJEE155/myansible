@@ -4,14 +4,14 @@
   tasks:
   - name: i want to create a file
     file:
-      path: /home/ubuntu/file1
+      path: /home/maha/file1
       state: touch
     notify:
     - repetedtasks
 
   - name: i want to create a file
     file:
-      path: /home/ubuntu/file2
+      path: /home/maha/file2
       state: touch
     notify:
     - repetedtasks

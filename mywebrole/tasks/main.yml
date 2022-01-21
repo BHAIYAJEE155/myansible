@@ -2,8 +2,9 @@
 # tasks file for mywebrole
 
 - name: install web server
-  apt: apache2
-  state: present
+  apt:
+   name: apache2
+   state: present
 
 - name: i want to create file
   file:

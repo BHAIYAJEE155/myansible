@@ -17,7 +17,7 @@
     - repetedtasks
 
 
-    handlers:
+  handlers:
     - name: repetedtasks
       debug:
         msg: "{{ansible_os_family}}"
